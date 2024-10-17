@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Ejemplo onload event -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+ <!-- script javascript     -->
+<script>
+function mi_funcion() {
+  var name = document.getElementById("name").value;
+  var apellido = document.getElementById("apellido").value;
+  alert ('Bienvenido' + ' ' + name + ' ' + apellido );
+
+}
+</script>
+</head>
+
+<body >
+    <h1 class="duro">Practica bloque 3</h1>
+    Introduce tu nombre:  <input type="text" id="name"> Introduce tu apellido1:
+     <input type="text" id="apellido" onblur="mi_funcion()">
+    
+    </body>
